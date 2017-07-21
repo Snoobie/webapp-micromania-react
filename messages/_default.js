@@ -216,4 +216,24 @@ export default [
     "id": "todos.todos.empty",
     "defaultMessage": "It's rather empty here...",
   },
+  {
+    "id": "shops.shops.link",
+    "defaultMessage": "More informations",
+  },
+  {
+    "id": "app.links.shops",
+    "defaultMessage": "Shops",
+  },
+  {
+    "id": "shops.shops.download_link",
+    "defaultMessage": "Download .csv",
+  },
+  {
+    "id": "shops.shops.phone",
+    "defaultMessage": "Telephone: ",
+  },
+  {
+    "id": "shops.shops.shops_selected",
+    "defaultMessage": "Shops selected: ",
+  },
 ];

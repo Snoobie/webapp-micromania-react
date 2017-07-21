@@ -18,6 +18,10 @@ const LinkMessages = defineMessages({
     defaultMessage: 'Home',
     id: 'app.links.home',
   },
+  shops: {
+    defaultMessage: 'Shops',
+    id: 'app.links.shops',
+  },
   me: {
     defaultMessage: 'Me',
     id: 'app.links.me',

@@ -208,4 +208,24 @@ export default [
     "id": "todos.todos.empty",
     "defaultMessage": "C'est plutôt calme par ici...",
   },
+  {
+    "id": "shops.shops.link",
+    "defaultMessage": "Plus d'informations",
+  },
+  {
+    "id": "app.links.shops",
+    "defaultMessage": "Boutiques",
+  },
+  {
+    "id": "shops.shops.download_link",
+    "defaultMessage": "Télécharger .csv",
+  },
+  {
+    "id": "shops.shops.phone",
+    "defaultMessage": "Téléphone: ",
+  },
+  {
+    "id": "shops.shops.shops_selected",
+    "defaultMessage": "Boutiques sélectionnées: ",
+  },
 ];

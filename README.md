@@ -1,41 +1,4 @@
-<img
-  alt="Este.js"
-  src="https://cloud.githubusercontent.com/assets/66249/6515278/de638916-c388-11e4-8754-184f5b11e770.jpeg"
-  width="200"
-/>
-
-[![Circle CI](https://img.shields.io/circleci/project/este/este/master.svg)](https://circleci.com/gh/este/este)
-[![Join the chat at https://gitter.im/este/este](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/este/este)
-[![Dependency Status](https://david-dm.org/este/este.svg)](https://david-dm.org/este/este)
 [![GitHub license](https://img.shields.io/github/license/este/este.svg)](https://github.com/este/este/blob/master/LICENSE)
-
-> Starter kit for universal full–fledged React apps. One stack for browser, mobile, server.
-
-> You don't have to start with everything. Este is perfect even for plain static pages. You can gracefully add any platform later. Este mission is simple: **Help startups to deliver minimum viable product asap with the state of the art real-time universal app stack**.
-
-> **Next Este is in the next brach. Check issues need to be done.**
-
-> **Please support Este via Bitcoin: [15H9wHuJk7RPHfWPPCRtiUEBb7vX1iD7ui](https://blockchain.info/address/15H9wHuJk7RPHfWPPCRtiUEBb7vX1iD7ui)**
-
-> Pokud máte zájem o školení JavaScript, React.js, nebo Este.js, podívejte se na [javascript-skoleni.cz](https://javascript-skoleni.cz/).
-
-## Techniques
-
-- universal architecture with immutable app state
-  - code shared across platforms (browser, server, native mobile)
-  - server side rendering or server-less pre-rendering to HTML files
-  - universal internationalization
-  - universal crash reporting
-  - universal data fetching
-  - universal forms with universal validation
-  - [universal components with universal styles](https://medium.com/@steida/css-in-js-the-argument-refined-471c7eb83955)
-- stateless functional UI with dynamic typed styles
-- flowtype FTW
-- vanilla hot reloading makes everything hot reloadable
-- [Firebase](https://firebase.google.com/) integration ([este.firebaseapp.com](https://este.firebaseapp.com))
-  - email and facebook login
-  - declarative queryFirebase higher order component for Firebase imperative API
-  - users presence
 
 ## Libraries
 
@@ -70,8 +33,8 @@ If you are using different node versions on your machine, use [nvm](https://gith
 ## Create App
 
 ```shell
-git clone
-cd este
+git clone https://github.com/Snoobie/micromania-webapp-react
+cd micromania-webapp-react/este 
 yarn (or npm install)
 ```
 

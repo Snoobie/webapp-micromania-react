@@ -208,4 +208,24 @@ export default [
     "id": "todos.todos.empty",
     "defaultMessage": "Esta bastante vacío aquí...",
   },
+  {
+    "id": "shops.shops.link",
+    "defaultMessage": "Más informaciones",
+  },
+  {
+    "id": "app.links.shops",
+    "defaultMessage": "Tiendas",
+  },
+  {
+    "id": "shops.shops.download_link",
+    "defaultMessage": "Descargar .csv",
+  },
+  {
+    "id": "shops.shops.phone",
+    "defaultMessage": "Télefono: ",
+  },
+  {
+    "id": "shops.shops.shops_selected",
+    "defaultMessage": "Tiendas selecionadas: ",
+  },
 ];

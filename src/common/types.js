@@ -19,6 +19,17 @@ export type Deps = {
 
 // Models
 
+export type Shop = {|
+  id: string,
+  selected: boolean,
+  title: string,
+  address: string,
+  lat: number,
+  lng: number,
+  phone: string,
+  url: string,
+|};
+
 export type Todo = {|
   completed: boolean,
   createdAt: number,
@@ -75,6 +86,10 @@ export type TodosState = {
   all: { [id: string]: Todo },
 };
 
+export type ShopsState = {
+  all: { [id: string]: Shop },
+};
+
 export type UsersState = {
   online: ?Array<User>,
   viewer: ?User,
@@ -91,6 +106,7 @@ export type State = {
   found: Object, // found router
   intl: IntlState,
   todos: TodosState,
+  shops: ShopsState,
   users: UsersState,
 };
 
@@ -120,5 +136,7 @@ export type Action =
   | { type: 'SIGN_UP_DONE', payload: { user: ?User } }
   | { type: 'SIGN_UP_FAIL', payload: { error: Error } }
   | { type: 'TOGGLE_TODO_COMPLETED', payload: { todo: Todo } }
+  | { type: 'TOGGLE_SHOP_SELECTED', payload: { shop: Shop } }
+  | { type: 'DOWNLOAD_SHOPS_CSV' }
   | { type: 'TOGGLE_BASELINE' }
   | { type: 'QUERY_FIREBASE', payload: { ref: string } };

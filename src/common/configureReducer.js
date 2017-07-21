@@ -5,6 +5,7 @@ import auth from './auth/reducer';
 import config from './config/reducer';
 import device from './device/reducer';
 import intl from './intl/reducer';
+import shops from './shops/reducer';
 import todos from './todos/reducer';
 import users from './users/reducer';
 import { combineReducers } from 'redux';
@@ -46,6 +47,7 @@ const configureReducer = (platformReducers: Object, initialState: Object) => {
     device,
     fields,
     intl,
+    shops,
     todos,
     users,
   });

@@ -30,6 +30,7 @@ type HeaderProps = {
   viewer: ?User,
 };
 
+//<HeaderLink to="/offline" message={linksMessages.offline} />
 const Header = ({ viewer }: HeaderProps) => (
   <Box
     backgroundColor="primary"
@@ -40,10 +41,11 @@ const Header = ({ viewer }: HeaderProps) => (
   >
     <HeaderLink exact to="/" message={linksMessages.home} />
     <HeaderLink to="/users" message={linksMessages.users} />
+    <HeaderLink to="/shops" message={linksMessages.shops} />
     <HeaderLink to="/todos" message={linksMessages.todos} />
     <HeaderLink to="/fields" message={linksMessages.fields} />
     <HeaderLink to="/intl" message={linksMessages.intl} />
-    <HeaderLink to="/offline" message={linksMessages.offline} />
+
     <HeaderLink to="/me" message={linksMessages.me} />
     {!viewer && <HeaderLink to="/signin" message={linksMessages.signIn} />}
   </Box>

@@ -16,9 +16,9 @@ import { Link, Title } from '../components';
 
 const HomePage = () => (
   <Box>
-    <Title message="Este.js" />
+    <Title message="Micromania WebApp" />
     <PageHeader
-      heading="Este"
+      heading="Micromania WebApp"
       description="Starter kit for universal full–fledged React apps. One stack
         for browser, mobile, server."
     />

@@ -16,6 +16,7 @@ import OfflinePage from '../offline/OfflinePage';
 import ProfilePage from '../me/ProfilePage';
 import SettingsPage from '../me/SettingsPage';
 import SignInPage from '../auth/SignInPage';
+import ShopsPage from '../shops/ShopsPage';
 import TodosPage from '../todos/TodosPage';
 import UsersPage from '../users/UsersPage';
 
@@ -37,6 +38,7 @@ AuthorizedRoute.createRoute = props => ({
 const routeConfig = makeRouteConfig(
   <Route path="/" Component={App}>
     <Route Component={HomePage} />
+    <Route path="shops" Component={ShopsPage} />
     <Route path="fields" Component={FieldsPage} />
     <Route path="intl" Component={IntlPage} />
     <AuthorizedRoute path="me" Component={MePage}>
